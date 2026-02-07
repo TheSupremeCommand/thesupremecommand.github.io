@@ -1,24 +1,1322 @@
-<!DOCTYPE      html><html     ><head><meta charset="utf-8">
-<title>
-      CHARTER OF THE SUPREME COMMAND
-</title>
-<style>
-html,body
-{margin:0;padding:0;width:100%;height:100%;
-overflow:hidden;;;;}
-iframe{
-position:absolute;top:0;left:0;
-width:100vw;height:100vh;
-border:0 none;outline:none;
-}
-</style></head>
+<!doctype html>
+<html>
+    <head>
+        <style>
+            @import url('styles.css');
+            @import url('https://fonts.googleapis.com/css?family=Google+Sans');
+            @import url('https://fonts.googleapis.com/css?family=Roboto');
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: Roboto, arial, sans, sans-serif;
+                margin: 0;
+            }
 
-<body        style="background:black">
+            iframe {
+                border: 0;
+                height: 100%;
+                width: fit-content;
+            }
 
-<div><div><div>
-<iframe
-src =   "https://docs.google.com/document/d/e/2PACX-1vRKF36ybroIqHW2fojJe4t5weY7PeUTfPKoQ_gqI0I5ImmPV4Hhl06ZwVnngiuoY-av8fAHBIwbfQlw/pub?embedded=true"
-></iframe>
-</div></div></div>
+            hr {
+                margin-block-start: 0;
+                margin-block-end: 0;
+                background-color: transparent;
+                border-top: 1px solid black;
+                border-bottom: none;
+                color: black;
+            }
 
-</body     ></html>
+            #banners {
+                align-items: center;
+                background: white;
+                display: block;
+                justify-content: space-between;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+            }
+
+            #banners #publish-banner {
+                background-color: #e8f0fe;
+                border-bottom: 1px #ccc solid;
+                color: #202124;
+                display: flex;
+                flex: 1 1 0%;
+                height: 60px;
+                width: 100%;
+            }
+
+            #publish-banner-icon {
+                display: flex;
+                fill: #1967d2;
+                margin: auto 20px;
+            }
+
+            #publish-banner-text {
+                flex-grow: 1;
+                margin: auto 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            #publish-banner-buttons {
+                margin: auto 25px auto 0;
+                white-space: nowrap;
+            }
+
+            #publish-banner-buttons span {
+                align-self: center;
+                background-color: inherit;
+                border: none;
+                font-family: 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+                margin: 0 16px 0 32px;
+            }
+
+            #publish-banner-buttons a {
+                color: #1967d2;
+                cursor: pointer;
+                font-family: 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 24px;
+                text-decoration: none;
+            }
+
+            #banners #title-banner {
+                background: white;
+                border-bottom: 1px #ccc solid;
+                display: flex;
+                flex: 1 1 0%;
+                height: 60px;
+                width: 100%;
+            }
+
+            #banners #title-banner #title {
+                flex-grow: 1;
+                font-family: 'Google Sans';
+                font-size: large;
+                margin: auto 0 auto 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 70%;
+            }
+
+            #banners #title-banner #interval {
+                margin: auto 25px auto 0;
+                font-family: Roboto;
+                font-size: small;
+            }
+
+            #footer {
+                background: #f0f0f0;
+                border-bottom: 1px #ccc solid;
+                bottom: 0;
+                font-family: Roboto;
+                font-size: small;
+                padding: 10px 10px;
+                position: fixed;
+                text-align: center;
+                width: 100%;
+            }
+
+            @media only screen and (max-device-width: 800px) {
+                #banners #title-banner {
+                    border-bottom-width: 5px;
+                    height: auto;
+                    display: block;
+                }
+
+                #banners #title-banner #title {
+                    font-size: 3em;
+                    margin: auto 0 auto 20px;
+                    width: 90%;
+                }
+
+                #banners #title-banner #interval {
+                    font-size: 1.5em;
+                    margin: 10px 0 auto 25px;
+                }
+
+                #footer {
+                    font-size: 2em;
+                }
+            }
+
+            .dash {
+                padding: 0 6px;
+            }
+
+            #contents {
+                width: fit-content;
+                padding: 100px 20% 50px 20%;
+            }
+
+            @media only screen and (max-device-width: 800px) {
+                #contents {
+                    padding: 150px 5% 80px;
+                }
+            }
+
+            .sig-container {
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                height: 100%;
+                width: 100%;
+            }
+
+            .sig {
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                width: 100%;
+                /* height: 100%; */
+            }
+
+            .sig-img-container {
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+            }
+
+            .sig-line-nate {
+                position: relative;
+                margin: -70px 0 0 0;
+            }
+
+            .sig-line-tuck {
+                position: relative;
+                margin: -105px 0 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contents">
+            <style type="text/css">
+                .lst-kix_oedzqe6i0zep-7 > li:before {
+                    content: '\0025cb   ';
+                }
+
+                .lst-kix_oedzqe6i0zep-6 > li:before {
+                    content: '\0025cf   ';
+                }
+
+                .lst-kix_oedzqe6i0zep-4 > li:before {
+                    content: '\0025cb   ';
+                }
+
+                .lst-kix_oedzqe6i0zep-5 > li:before {
+                    content: '\0025a0   ';
+                }
+
+                ul.lst-kix_kw00ky26wk9h-2 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_oedzqe6i0zep-2 > li:before {
+                    content: '\0025a0   ';
+                }
+
+                ul.lst-kix_kw00ky26wk9h-3 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_kw00ky26wk9h-0 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_kw00ky26wk9h-1 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_kw00ky26wk9h-6 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_kw00ky26wk9h-7 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_kw00ky26wk9h-4 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_oedzqe6i0zep-3 > li:before {
+                    content: '\0025cf   ';
+                }
+
+                ul.lst-kix_kw00ky26wk9h-5 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_kw00ky26wk9h-8 > li:before {
+                    content: '\0025a0   ';
+                }
+
+                ul.lst-kix_kw00ky26wk9h-8 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_oedzqe6i0zep-0 > li:before {
+                    content: '\0025cf   ';
+                }
+
+                .lst-kix_oedzqe6i0zep-1 > li:before {
+                    content: '\0025cb   ';
+                }
+
+                .lst-kix_kw00ky26wk9h-4 > li:before {
+                    content: '\0025cb   ';
+                }
+
+                ul.lst-kix_oedzqe6i0zep-0 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_kw00ky26wk9h-3 > li:before {
+                    content: '\0025cf   ';
+                }
+
+                .lst-kix_kw00ky26wk9h-7 > li:before {
+                    content: '\0025cb   ';
+                }
+
+                ul.lst-kix_oedzqe6i0zep-7 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_oedzqe6i0zep-8 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_oedzqe6i0zep-5 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_oedzqe6i0zep-6 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_kw00ky26wk9h-6 > li:before {
+                    content: '\0025cf   ';
+                }
+
+                ul.lst-kix_oedzqe6i0zep-3 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_oedzqe6i0zep-4 {
+                    list-style-type: none;
+                }
+
+                li.li-bullet-0:before {
+                    margin-left: -18pt;
+                    white-space: nowrap;
+                    display: inline-block;
+                    min-width: 18pt;
+                }
+
+                .lst-kix_kw00ky26wk9h-5 > li:before {
+                    content: '\0025a0   ';
+                }
+
+                ul.lst-kix_oedzqe6i0zep-1 {
+                    list-style-type: none;
+                }
+
+                ul.lst-kix_oedzqe6i0zep-2 {
+                    list-style-type: none;
+                }
+
+                .lst-kix_kw00ky26wk9h-0 > li:before {
+                    content: '\0025cf   ';
+                }
+
+                .lst-kix_kw00ky26wk9h-2 > li:before {
+                    content: '\0025a0   ';
+                }
+
+                .lst-kix_oedzqe6i0zep-8 > li:before {
+                    content: '\0025a0   ';
+                }
+
+                .lst-kix_kw00ky26wk9h-1 > li:before {
+                    content: '\0025cb   ';
+                }
+
+                ol {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                table td,
+                table th {
+                    padding: 0;
+                }
+
+                .c14 {
+                    -webkit-text-decoration-skip: none;
+                    color: #000000;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    vertical-align: baseline;
+                    text-decoration-skip-ink: none;
+                    font-size: 32pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c9 {
+                    -webkit-text-decoration-skip: none;
+                    color: #000000;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    vertical-align: baseline;
+                    text-decoration-skip-ink: none;
+                    font-size: 18pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c11 {
+                    -webkit-text-decoration-skip: none;
+                    color: #000000;
+                    font-weight: 700;
+                    text-decoration: underline;
+                    vertical-align: baseline;
+                    text-decoration-skip-ink: none;
+                    font-size: 14pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c1 {
+                    margin-left: 36pt;
+                    padding-top: 6pt;
+                    padding-left: 0pt;
+                    padding-bottom: 6pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                .c13 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 14pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c6 {
+                    color: #000000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 12pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c3 {
+                    padding-top: 6pt;
+                    padding-bottom: 6pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                    height: 11pt;
+                }
+
+                .c0 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 12pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c5 {
+                    padding-top: 9pt;
+                    padding-bottom: 9pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                    height: 11pt;
+                }
+
+                .c7 {
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: center;
+                    height: 11pt;
+                }
+
+                .c12 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 10pt;
+                    font-family: 'Times New Roman';
+                    font-style: normal;
+                }
+
+                .c16 {
+                    padding-top: 9pt;
+                    padding-bottom: 9pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                .c19 {
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: center;
+                }
+
+                .c8 {
+                    padding-top: 9pt;
+                    padding-bottom: 9pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: center;
+                }
+
+                .c18 {
+                    padding-top: 18pt;
+                    padding-bottom: 18pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                .c2 {
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                .c4 {
+                    padding-top: 6pt;
+                    padding-bottom: 6pt;
+                    line-height: 1.5;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                .c15 {
+                    font-size: 12pt;
+                    font-weight: 400;
+                    font-family: 'Times New Roman';
+                }
+
+                .c22 {
+                    background-color: #ffffff;
+                    max-width: 540pt;
+                    padding: 72pt 36pt 72pt 36pt;
+                }
+
+                .c21 {
+                    margin-left: 36pt;
+                    padding-left: 0pt;
+                }
+
+                .c17 {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .c20 {
+                    font-style: italic;
+                }
+
+                .c10 {
+                    height: 11pt;
+                }
+
+                .title {
+                    padding-top: 0pt;
+                    color: #000000;
+                    font-size: 26pt;
+                    padding-bottom: 3pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                .subtitle {
+                    padding-top: 0pt;
+                    color: #666666;
+                    font-size: 15pt;
+                    padding-bottom: 16pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                li {
+                    color: #000000;
+                    font-size: 11pt;
+                    font-family: 'Arial';
+                }
+
+                p {
+                    margin: 0;
+                    color: #000000;
+                    font-size: 11pt;
+                    font-family: 'Arial';
+                }
+
+                h1 {
+                    padding-top: 20pt;
+                    color: #000000;
+                    font-size: 20pt;
+                    padding-bottom: 6pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                h2 {
+                    padding-top: 18pt;
+                    color: #000000;
+                    font-size: 16pt;
+                    padding-bottom: 6pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                h3 {
+                    padding-top: 16pt;
+                    color: #434343;
+                    font-size: 14pt;
+                    padding-bottom: 4pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                h4 {
+                    padding-top: 14pt;
+                    color: #666666;
+                    font-size: 12pt;
+                    padding-bottom: 4pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                h5 {
+                    padding-top: 12pt;
+                    color: #666666;
+                    font-size: 11pt;
+                    padding-bottom: 4pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+
+                h6 {
+                    padding-top: 12pt;
+                    color: #666666;
+                    font-size: 11pt;
+                    padding-bottom: 4pt;
+                    font-family: 'Arial';
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    font-style: italic;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left;
+                }
+            </style>
+            <div class="c22 doc-content">
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c13"></span>
+                </p>
+                <p class="c19">
+                    <span class="c14">THE CHARTER</span>
+                </p>
+                <p class="c19">
+                    <span class="c14">OF THE</span>
+                </p>
+                <p class="c19">
+                    <span class="c14">SUPREME COMMAND</span>
+                </p>
+                <p class="c7">
+                    <span class="c6"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c6"></span>
+                </p>
+                <p class="c7">
+                    <span class="c6"></span>
+                </p>
+                <p class="c19">
+                    <span class="c12">Written by</span>
+                </p>
+                <p class="c19">
+                    <span class="c0">Nathaniel D. Robison</span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c19">
+                    <span class="c12">With input from</span>
+                </p>
+                <p class="c19">
+                    <span class="c0">John T. Rife</span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c7">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">INTRODUCTION</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Hello Art. It has come to Tyler and I’s attention that the project &#39;s general structure and
+                        day-to-day operations need to change. Expectations have been individually set with a common goal
+                        in mind between both of us, but it is increasingly clear and obvious that anything other than
+                        this message will not paint the picture clearly enough. Before we get into the new ruleset, we
+                        want to mention that we will be citing past examples to justify it. These observations and
+                        examples are no longer open to interpretation. We have ensured that our analysis of the events
+                        accounts for potential bias and skewed the rules in your favor to offset any bias. This is to
+                        give you the best possible chance to meet our expectations and goals, which have been crafted
+                        around these events.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >By the end of this message, if you do not believe you can meet all the requirements, we welcome
+                        negotiating restrictions, quantities, process, etc. If we cannot reach an agreement with
+                        quantifiable measurements, Tyler and I believe it is in our best interest to request a refund
+                        now. It should also be noted that if this message is not acknowledged by you, we will request a
+                        refund and escalate to a chargeback if the refund request goes unacknowledged.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c16">
+                    <span class="c9">IMPLEMENTATION</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Agreement, negotiations, and implementation of the terms below shall be implemented within
+                        seven (7) days of this document &#39;s publication. Extensions are available, subject to our
+                        approval. Strict adherence to these rules is expected on the next Monday after the
+                        implementation stage is complete.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">16 HOUR WORK WEEK</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >The first rule we would like to introduce is a fixed number of hours we would like you to work
+                        within a seven (7) day week. Over the course of this project, we have expressed our
+                        dissatisfaction with the amount of progress and the seeming lack of interest or care you have
+                        shown. Your response to our dissatisfaction has been the opposite; you’ve expressed how “this is
+                        your biggest project ever” and that you’re “super excited to see it to completion”. As of now,
+                        we are no longer judging words or promises, as neither returns results. We will be judging
+                        action or lack thereof in a measurable way that we can quantify. The fixed number of hours per
+                        week will be set at sixteen (16) hours per week. That can be broken up as you like, as long as
+                        the 16 hours are completed by EOD Sunday using Eastern Standard Time (EST).</span
+                    >
+                </p>
+                <p class="c2 c10">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">TIME TRACKING</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Much like the Constitution of the United States of America, the second rule is here to enforce
+                        the first. This is not set in stone and will require negotiations and testing sessions. It is
+                        important that you adhere to this rule, as it is the only way we can accurately track and record
+                        your time to ensure you meet our expectations. We would like to propose the following solutions
+                        that would help you satisfy this requirement:</span
+                    >
+                </p>
+                <ul class="c17 lst-kix_oedzqe6i0zep-0 start">
+                    <li class="c1 li-bullet-0">
+                        <span class="c0"
+                            >You record your entire work session every day and upload it to Discord, Dropbox, or another
+                            file-sharing platform. You will then send us the necessary information to access that video.
+                            You will need to record your entire screen, not just the application. This includes your
+                            taskbar, Windows Start Menu, and overlapping windows and applications. Recording audio is
+                            optional. You are permitted to split your recording into parts, provided they are reasonably
+                            continuous.</span
+                        >
+                    </li>
+                    <li class="c1 li-bullet-0">
+                        <span class="c0"
+                            >You stream your entire work session to one of our servers, and we save the file as it
+                            streams to us.</span
+                        >
+                    </li>
+                </ul>
+                <p class="c4">
+                    <span class="c0"
+                        >It is important to note that you should not expect time to be counted unless it has been
+                        recorded. Recordings will be screened accordingly and in as much detail as required to ensure
+                        you meet expectations. Under this system, updates will no longer happen retroactively, and there
+                        will be no more uncertainty. Breaks are expected and encouraged, but an overabundance of breaks
+                        or their duration will not be counted towards your weekly quota. If you have questions about the
+                        limits or have an incomplete understanding, please feel free to ask us questions.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">FREEDOMS OF &amp;FREEDOMS FROM</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >You mentioned that the constant, daily pressure from us ends up being a detriment to your
+                        ability to meaningfully contribute to the artwork. It has become the largest symptom both in
+                        size and intensity for both of us, and this is what we’ve decided to do about it. We will no
+                        longer be pestering you daily, hourly, or crafting new apparatuses to make sure you’re on
+                        task.</span
+                    >
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >As the paying customer, it should not be our duty to motivate, regulate, or enforce our
+                        expectations with you on an hourly basis. Starting with our mutual agreement on this
+                        document:</span
+                    >
+                </p>
+                <ul class="c17 lst-kix_kw00ky26wk9h-0 start">
+                    <li class="c1 li-bullet-0">
+                        <span class="c0">You will have freedom from our daily reminders.</span>
+                    </li>
+                    <li class="c18 c21 li-bullet-0">
+                        <span class="c0"
+                            >You will have the freedom to manage your own schedule, and not have to answer to us about
+                            unexpected events.</span
+                        >
+                    </li>
+                    <li class="c18 c21 li-bullet-0">
+                        <span class="c0">You will have the freedom from ambiguous expectations.</span>
+                    </li>
+                    <li class="c18 c21 li-bullet-0">
+                        <span class="c0"
+                            >You will have the freedom to focus on your creativity and your interpretations of our art,
+                            without our premature critiques.</span
+                        >
+                    </li>
+                </ul>
+                <p class="c10 c18">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">“YOU CAN HAVE RESULTS OR EXCUSES. NOT BOTH”</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Without sounding out of touch or uninformed, when free time arises in your schedule,
+                        suggestions to allocate part of it to our artwork are consistently met with new reasons not to
+                        proceed. In the previous systems, this has led to discontent from both sides. With our new
+                        system, these excuses will no longer be a major point of contention. As long as the expectations
+                        are met in full, it does not matter to us what you do with the rest of your free time. This is
+                        important enough for us to include, and we want to make it clear that we are not judging the
+                        validity of your excuses or reasons for your absence and lack of output. The idea is that this
+                        will hopefully improve critiques, feedback, and the general social dynamic, creating a more
+                        conducive environment for productive thought and action.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">“BY FAILING TO PREPARE, YOU ARE PREPARING TO FAIL”</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >This next section, while quite long, is here for us to show you that we still have faith. We’ve
+                        put together a list of strategies that will help you accomplish your task. Normally, in a
+                        traditional 9-5 job, when you run out of work, they just give you more work. That’s not how it
+                        works here. By managing your time more efficiently, you actually reclaim more for yourself. The
+                        more disciplined you are in your daily activities, the more free time you will unlock for
+                        yourself throughout this process. The more rigid you are in implementing these strategies, the
+                        more flexible you’ll be with your time.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c11">Planning:</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Planning is one of the key components for achieving a goal exceptionally well. Without
+                        planning, you’re reactive, having to explore the unknown path you have now found yourself on,
+                        which will ultimately lead to disaster. Planning makes you more reliable, and when things are
+                        reliable, they become predictable. When things become predictable, you can depend on their
+                        output, which allows you to think further and further ahead. Even a bad plan is better than no
+                        plan. In our case, planning allows both parties to complete the same amount of work in less time
+                        than if no plan were created.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c15"
+                        >This is all to say that a lack of planning and poor foresight will inevitably lead you to
+                        falling behind on your obligations, leaving us all in a lose-lose situation. Failure to plan and
+                        lack of foresight will no longer come at our expense, but at your expense (see “Consequences”).
+                    </span>
+                    <span class="c15">It is for that imperative reason that you conceive of a comprehensive plan</span>
+                    <span class="c0"
+                        >. If you need feedback or critiques on a portion of the piece, or would like oversight on a
+                        section, you need to schedule ahead with us to ensure a section of our time is carved out for
+                        your purposes.</span
+                    >
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Tyler and I deem planning so vital to the process that we have obligated ourselves to respond
+                        to your requests within twenty-four (24) hours of receiving them. If we fail to meet this
+                        obligation, we will compensate you for the hours you could’ve worked if we had responded in a
+                        reasonable time. The number of hours will ultimately be determined by us, but we can guarantee
+                        it will be non-zero.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c11">Distractions and Focus:</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >To achieve meaningful progress, it is essential that you minimize interruptions and external
+                        temptations. We understand that not all distractions can be mitigated, but of those that cannot,
+                        they are the least egregious. Distractions steal more time than you realize, as reengaging is
+                        more than the simple process it is made out to be, especially for people with your conditions.
+                        They undermine your ability to execute plans efficiently. For these reasons, we suggest you
+                        analyze your major distractions and isolate yourself from them as necessary. For example, social
+                        groups and general discussion distract me from making meaningful progress on any task,
+                        regardless of its nature. To compensate for this pitfall and avoid it, I handle all my required
+                        work away from the devices that let me quickly connect with my friends. That’s not to say that
+                        everyone gets distracted like me, or that my solutions will work for others. It’s meant only to
+                        illustrate my observation, understanding, and problem-solving methodology, so others can
+                        implement solutions tailored to their issues.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Under this new system, Tyler and I won’t be available to keep you on task. It is now your
+                        responsibility.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c11">Aim small, miss small:</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >We want to emphasize the importance of breaking down tasks into manageable components. By
+                        focusing on the end goal and the big picture, you may experience decision/action paralysis,
+                        leaving you feeling overwhelmed and indecisive. Breaking down these components and creating
+                        precise, measurable goals will allow you to track progress quantifiably and plan more flexibly.
+                        More flexible planning lets you dynamically adapt to new scenarios and events, improving your
+                        responses. This strategy will allow you to be more accountable not only to us, but to yourself.
+                        Aiming for these smaller goals may result in something less than perfect in the end, while
+                        aiming for one broad, vague, and unexplored goal may leave you with nothing at all.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c11">Discipline:</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Discipline is the foundation that allows you to meaningfully start, implement, and complete the
+                        strategies listed above. Without discipline, even the best plans and ideas remain on paper, your
+                        focus flees, and if abandoned altogether, smaller, deliberate goals lose impact.
+                    </span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Being disciplined in planning helps you be self-critical and objective, enabling you to create
+                        more realistic plans and carry them out in a pragmatic way.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Being disciplined in your focus allows you to reclaim more of your hours while getting more
+                        done. Unlocking parts of the day that have been permanently behind bars.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Being disciplined in standards and aiming to create the best will leave you much closer to the
+                        mark than someone who only aims to get a product out that’s “good enough”.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">CONSEQUENCES</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >The consequences for failing to meet our expectations are meant to be straightforward.
+                        Implementation and our interpretation of the consequences will also be discussed to help you get
+                        a full picture of how we will investigate and assess potential violations.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >While some of the consequences and expectations listed above are not yet established, by the
+                        time work resumes and a mutual understanding of this document is agreed upon, the consequences
+                        will be further dialed in to reflect the certainty of our future discussion. However, the major
+                        pain points and intentions are listed below, so it’s important to read them now.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c15">Firstly</span>
+                    <span class="c15"
+                        >, failing to meet our expectations will result in a refund request. Failure to fulfill the
+                        refund request
+                    </span>
+                    <span class="c15">within three (3) days</span>
+                    <span class="c0"
+                        >will result in us requesting chargebacks from our banks and PayPal, which may result in PayPal
+                        taking action against your account for soliciting a ‘Goods and Services’ transaction as a
+                        ‘Friends and Family’ one.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c15">Secondly</span>
+                    <span class="c0"
+                        >, we reserve the right and can imagine scenarios where our expectations shouldn’t always apply
+                        for moral reasons. These scenarios involve cataclysmic scale, not limited to death, economic
+                        collapse, war, major weather events, power outage, and homelessness.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c15">Finally</span>
+                    <span class="c0"
+                        >, failure to complete the implementation stage within three (3) days without approved
+                        extensions will result in a refund request and, if needed, escalate to a chargeback.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2">
+                    <span class="c9">GENERAL THOUGHTS</span>
+                </p>
+                <p class="c4">
+                    <span class="c15"
+                        >Without the ability to practice discipline and hold yourself accountable for your actions,
+                        these strategies will bear no fruit and are meaningless. All of this requires ownership and
+                        accountability, from both sides, for both sides. If we do not help you, you cannot help us, and
+                        vice versa. It is our opinion that we are offering, and at times begging for work to be done,
+                        only to receive
+                    </span>
+                    <span class="c15 c20">a promise</span>
+                    <span class="c15"
+                        >of work. Let us be clear: there have been multiple occasions when we have received only
+                    </span>
+                    <span class="c15 c20">a promise</span>
+                    <span class="c15">of work, with no </span>
+                    <span class="c15 c20">actual</span>
+                    <span class="c0">work completed until days later, in the most egregious circumstances.</span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c15"
+                        >We are exhausted from trying to double-handedly steer you toward a project you claim to be
+                        super excited about. Every time we implement your wishes, we see less work than if we had simply
+                        refused and continued on the path you least desired. We do not derive enjoyment from enforcing
+                        our wishes upon you, but we see no other alternative that has consistently met our expectations.
+                        Whether intentional or not, the amount of gaslighting that has
+                    </span>
+                    <span class="c15 c20">objectively</span>
+                    <span class="c0"
+                        >occurred with respect to promises and actions is on the cusp of being conspiratorial and, at a
+                        minimum, fraudulent.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >We have not received our money &#39;s worth for anything, as no final product has been
+                        delivered, and extra amounts paid in advance for promises of work have not borne any fruit.
+                        Unfortunately, we’ve come to the conclusion that it is “our way or the highway,” so to speak.
+                        Restricting and assuming the duties of a traditional middle manager is outside our nature; it is
+                        repulsive and antithetical to the way we believe quality work is produced at every level. As we
+                        see it, we have no other options to consider.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Finally, it is unfortunate to see our good favor be used and abused in this manner by someone
+                        most of the Discord would consider a friend, and at minimum a close acquaintance. If we had
+                        hired a stranger to complete this task and got the same treatment that you are giving us, this
+                        project wouldn’t have made it past the first weekend of January. Yes, we have been hard on you
+                        at times, but it would be an unfair characterization of our behavior to claim that we are doing
+                        this to belittle, insult, or emotionally break you down. We know that you are capable of
+                        completing this project and have the skill to do an amazing job.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >Not only will this allow you to showcase a larger art piece to attract higher-paying clients,
+                        but it will also let us put money in the pockets of the people we interact with to improve their
+                        lives in a preferably stress-free way, doing something they love. Our goal isn’t for you to rush
+                        this out and try to squeeze every drop of labor and free time out of you for our benefit. That’s
+                        the goal of an employer who gives you a W2 at the end of the year.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >We’ve tried to give you autonomy and allow you to work at a pace you’re comfortable with. We’ve
+                        admitted to our ignorance regarding the amount of work required and have offered to increase
+                        your pay proportionally to the extra work required. All of those gestures have been met with
+                        lackluster results, poor communication, and missed expectations. You’ve lied, cheated, and,
+                        frankly, stolen our money, and in return, we’ve been led astray, given empty promises,
+                        misdirected, and left without the progress or honesty you’ve repeatedly assured us would come. I
+                        personally find it hard to differentiate this experience from that of a phone scam operation in
+                        India. I know this comparison may seem harsh, and I’ll be the first to admit it doesn’t map on
+                        exactly, but if you completely disagree, please explain to me the difference.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c16">
+                    <span class="c9">GOING FORWARD AND COMMENTS FROM YOU</span>
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >To implement some of the essential changes proposed, we require your cooperation. We’ve tried
+                        our best to remain respectful while airing our grievances and conveying their importance. It’s a
+                        hard and delicate balance to strike, so we would appreciate your forgiveness if we’ve missed the
+                        mark.</span
+                    >
+                </p>
+                <p class="c4">
+                    <span class="c0"
+                        >We’d like to invite your thoughts at this time. You’re welcome to write a response like ours or
+                        craft one in your preferred style. If you’d like to leave comments on the document or discuss in
+                        a voice chat, we can arrange that as well. We are not looking to argue or debate about what has
+                        happened in the past. We only care about the process going forward. If you feel that this is
+                        something you can agree to without many changes, we can start working on implementations as soon
+                        as you are available.</span
+                    >
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c3">
+                    <span class="c0"></span>
+                </p>
+                <p class="c2 c10">
+                    <span class="c0"></span>
+                </p>
+                <div class="sig-container">
+                    <p class="c8">
+                        <span class="c9">SIGNED BY ORDER AND ON BEHALF OF </span>
+                        <br />
+                        <span class="c9">THE SUPREME COMMAND,</span>
+                    </p>
+
+                    <div class="sig-img-container">
+                        <div class="sig">
+                            <img
+                                alt=""
+                                src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0GEujhymgXwYbwzdklut1f5j4QN41EZ5jzaTQlH1KFy7dmvSHCbMeolwSrfJIIVPEsxrihVAVbPXlHyKNozxEmLabp29Xa8B-tK-ctOQWz_PMddRCBzNwQ0FzW82XUaWyNBr3Q0Fw0uDiMEXunqujVyHpzGM?key=MuiV6clts5fQwbz7NbL_vQ"
+                                style="
+                                    width: 685.5px;
+                                    height: 101.87px;
+                                    margin-left: 0px;
+                                    margin-top: 0px;
+                                    transform: rotate(0rad) translateZ(0px);
+                                    -webkit-transform: rotate(0rad) translateZ(0px);
+                                "
+                                title=""
+                            />
+                            <hr class="sig-line-nate" />
+                            <span class="c9">Nathaniel D. Robison, Supreme Allied Commander</span>
+                        </div>
+
+                        <div class="sig">
+                            <img
+                                alt=""
+                                src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqTqJrqopnDVtsCwwnteG2fOodbkcGal63DzlLMiBYJ7hDute1AT8ruNRnnbaa4njF0mGGBU21UKiC6R1BiFd9bERFyQTKJz3Y_E2kHVYyvb7ectzgitAd_It67YeeV_mrv5nPqeP_0j2jhNkC_zb00RBt1E8?key=MuiV6clts5fQwbz7NbL_vQ"
+                                style="
+                                    width: 298.5px;
+                                    height: 136.94px;
+                                    margin-left: 0px;
+                                    margin-top: 0px;
+                                    transform: rotate(0rad) translateZ(0px);
+                                    -webkit-transform: rotate(0rad) translateZ(0px);
+                                "
+                                title=""
+                            />
+                            <hr class="sig-line-tuck" />
+                            <span class="c9">John T. Rife, Supreme Hater of Slacking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
